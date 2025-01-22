@@ -1,8 +1,6 @@
 // The Array object is used to store multiple values in a single variable.
 const cars = ["Saab", "Volvo", "BMW",2,5,5.5,7.1,{name:"ajmal",age:50 } ,true , null ,undefined];  // string ,number,integer ,object , Booleans ,null , undifiend 
 
-
-
 // basic filter
 const a = [
   {
@@ -19,7 +17,7 @@ const a = [
   },
 ];
 
-let b = a.filter(a=>a.name!=="ajmal") // filter the rest of the dataṇ
+let b = a.filter(a=>a.name!=="ajmal") // filter the rest of the data
 // let b = a.filter(a=>a.name =="ajmal") //return the same array but you need just the object use find
 // let c = a.find(a=>a.name =="ajmal") //return only the object
 
