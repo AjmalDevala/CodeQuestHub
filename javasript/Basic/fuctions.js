@@ -1,26 +1,26 @@
 // Function Declarations (Named Functions
 
-function greet() {
-  console.log("Hello, World!");
-}
-greet();
+// function greet() {
+//   console.log("Hello, World!");
+// }
+// greet();
 
 // Function Expressions
 // A function assigned to a variable. These are not hoisted.
 
-const greet = function() {
+const greeter = function() {
   console.log("Hello, World!");
 };
-greet();
+greeter();
 
 // Arrow Functions (ES6)
 // A concise syntax for writing functions. They do not have their own this context, making them useful in certain situations like callbacks.
 
 
-const greet = () => {
+const greetst = () => {
   console.log("Hello, World!");
 };
-greet();
+greetst();
 
 
 // Anonymous Functions
